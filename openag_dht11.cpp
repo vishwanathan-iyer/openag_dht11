@@ -58,7 +58,7 @@ void Dht11::getData(void) {
    // _air_temperature /= 10;
    // if (_data[2] & 0x80) {
    //   _air_temperature *= -1;
-    }
+   // }
     _send_air_temperature = true;
     _send_air_humidity = true;
   }
